@@ -20,7 +20,8 @@ p{
     background-color: rgb(120, 128, 128);
 }
 img{
-border-radius: 50px;
-
-
+border-radius: 50%;
+background-color:rgb(120, 128, 128);
+padding: 30px;
+width: 150px;
 }
