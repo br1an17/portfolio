@@ -6,8 +6,3 @@ h1{
 background-color: rgb(92, 189, 231);
 font-size: 3rem;
 }
-p{
-    font-size: 2rem;
-    display: flex;
-    background-color: rgb(120, 128, 128);
-}
