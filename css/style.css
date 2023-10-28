@@ -19,25 +19,53 @@
   --shadow-color: rgba(0, 0, 0, 0.2);
 }
 html {
-
-font-size: 62.5%;
-overflow-x: hidden;
-
+  font-size: 62.5%;
+  overflow-x: hidden;
 }
 
-body{
-background: var(--bg-color);
-color: var(--text-color);
-
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
 }
-.header{
-position: fixed;
-top: 0;
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 7%;
+  background: red;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 2.5rem;
+  color: var(--main-color);
+  cursor: default;
+  margin-right: auto;
+}
+
+.navbar a {
+  position: relative;
+  font-size: 1.7rem;
+  color: var(--white-color);
+  font-weight: 500;
+  margin-right: 3.5rem;
+}
+
+
+.navbar a.home::before{
+content: "";
+position: absolute;
 left: 0;
+bottom: -6px;
 width: 100%;
-padding: 2rem 7%;
-background: red;
-display: flex;
-align-items: center;
+height: 0.2rem;
+background: var(--white-color);
+
+
 
 }
+
+
