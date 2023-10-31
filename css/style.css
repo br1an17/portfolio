@@ -33,7 +33,7 @@ body {
   left: 0;
   width: 100%;
   padding: 2rem 7%;
-  background:transparent;
+  background: transparent;
   display: flex;
   align-items: center;
   z-index: 100;
@@ -144,18 +144,47 @@ section {
   transform: translateY(-50%);
   width: 768px;
   height: 768px;
-  
+
   overflow: hidden;
   pointer-events: none;
 }
 
-.home .profecion-container .profecion-box{
-position: absolute;
-top: 0;
-right: 0;
-width: 768px;
-height: 768px;
-background: rgb(113, 226, 43);
-border-radius: 50%;
+.home .profecion-container .profecion-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 768px;
+  height: 768px;
+ 
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .profecion-box .profecion {
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: var(--main-color);
+  transform: rotate(calc(360deg / 4 * var(--i)));
+  transform-origin: 384px;
+  background: var(--bg-color);
+  padding: 13px 0;
+}
 
+.home .profecion i {
+  font-size: 3.8rem;
+}
+.home .profecion h3 {
+  font-size: 3.2rem;
+  line-height: 1;
+  font-weight: 600;
+}
+.home .profecion-box .circulo {
+  width: 560px;
+  height: 560px;
+  border: 3px solid var(--main-color);
+  border-radius: 50%;
 }
