@@ -196,14 +196,14 @@ section {
   border-radius: 50%;
 }
 
-.home .profecion-container .overlay {
+.home .profecion-container .ola{
   position: absolute;
   top: 0;
   right: 0;
   width: 0;
   height: 0;
-  border-top: 348 solid blue;
-  border-right: 348 solid yellowgreen;
-  border-bottom: 348 solid purple;
-  border-left: 348 solid black;
+  border-top: 384px solid var(--main-color);
+  border-right: 384px solid var(--main-color);
+  border-bottom: 384px solid var(--main-color);
+  border-left: 384px solid transparent;
 }
