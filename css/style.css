@@ -155,7 +155,7 @@ section {
   right: 0;
   width: 768px;
   height: 768px;
- 
+
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -173,6 +173,13 @@ section {
   background: var(--bg-color);
   padding: 13px 0;
 }
+.home .profecion-box .profecion:nth-child(1) i {
+  margin-right: 15px;
+}
+.home .profecion-box .profecion:nth-child(2),
+.home .profecion-box .profecion:nth-child(4) {
+  padding-bottom: 20px;
+}
 
 .home .profecion i {
   font-size: 3.8rem;
@@ -187,4 +194,16 @@ section {
   height: 560px;
   border: 3px solid var(--main-color);
   border-radius: 50%;
+}
+
+.home .profecion-container .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: 348 solid blue;
+  border-right: 348 solid yellowgreen;
+  border-bottom: 348 solid purple;
+  border-left: 348 solid black;
 }
